@@ -1,5 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str">En este proyecto se lleva a cabo la programación necesaria para llevar a cabo el control de una puerta de garaje a escala, con fines didácticos o de aprendizaje. 
+Como elemento de control se usa un PIC16F887 que es controlado mediante los bloques de escritura y lectura digital del PIC Serial Toolkit. El elemento de control final es un CI L293D, que controla un motor-reductor que eleva y/o baja la puerta de garaje a escala, la cuál es detectada por sensores infrarrojos.
+</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
